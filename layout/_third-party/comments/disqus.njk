@@ -16,9 +16,7 @@
     this.page.url = {{ page.permalink | safedump }};
     this.page.identifier = {{ page.path | safedump }};
     this.page.title = {{ page.title | safedump }};
-    {% if __('disqus') !== 'disqus' -%}
-      this.language = '{{ __('disqus') }}';
-    {% endif -%}
+    this.language = CONFIG.page.lang;
   };
   NexT.utils.loadComments('#disqus_thread', () => {
     if (window.DISQUS) {
