@@ -629,7 +629,7 @@ livere_uid: # <your_uid>
 gitalk:
   enable: true
   github_id: wontdoanything # GitHub repo owner
-  repo: blog.bxgms.top # Repository name to store issues
+  repo: rmysjHexo # Repository name to store issues
   client_id: 14560bb2a7db676bae55 # GitHub Application Client ID
   client_secret: 0309b16dbf46a29d8e1de7476110f9ef1235da4e # GitHub Application Client Secret
   admin_user: # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
