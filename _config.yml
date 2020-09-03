@@ -345,20 +345,27 @@ android_chrome_color: "#222"
 # Custom Logo (Warning: Do not support scheme Mist)
 custom_logo: #/uploads/custom-logo.jpg
 
+#Prism requires Hexo v5 or later.
+highlight:
+  enable: false
+prismjs:
+  enable: true
+
 codeblock:
   # Code Highlight theme
   # All available themes: https://theme-next.js.org/highlight/
   theme:
     light: default
-    dark: tomorrow-night
+#    dark: tomorrow-night
+    dark: night-owl
   prism:
-    light: prism
-    dark: prism-dark
+    light: prism-xonokai
+    dark: prism-xonokai
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Available values: default | flat | mac
-    style:
+    style: mac
 
 back2top:
   enable: true
